@@ -212,4 +212,5 @@ nn_error_e NanoTrack::LoadModel(const char *modelTName, const char *modelXName, 
     }
 
     /////////////////////////加载X模型/////////////////////////////////
+    auto ret = x_engine_->LoadModelFile(modelXName);
 }
